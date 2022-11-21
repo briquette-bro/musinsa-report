@@ -127,5 +127,5 @@ curl --location --request PUT 'http://localhost:8080/product-stock/{productName}
 | productName | String | 상품명 | uri path | O |
 | productOptionName | String | 상품 옵션명 | body | O |
 | quantity | Integer | 수량 (양수, 1 이상만 가능) | body | O |
-| command | ENUM | 증가/차감 명령(증가: INCREASE, 차감: DECREASE) | body | O |
+| command | String | 증가/차감 명령(증가: INCREASE, 차감: DECREASE) | body | O |
 - Response : 없음(http status 204)
