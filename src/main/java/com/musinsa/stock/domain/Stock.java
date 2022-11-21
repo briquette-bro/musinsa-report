@@ -23,7 +23,7 @@ public class Stock {
     }
     public void decrease(int quantity) {
         if((productQuantity - quantity) < 0)
-            throw new StockQuantityValidException("재고수량은 음수가 될 수 없습니다.(현재 재고 0)");
+            throw new StockQuantityValidException(String.format("재고수량은 음수가 될 수 없습니다.(현재 재고 %s)", productQuantity));
 
         productQuantity -= quantity;
     }
