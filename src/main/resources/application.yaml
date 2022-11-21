@@ -32,4 +32,4 @@ spring:
       mode: always
 logging:
   level:
-    root: debug
+    root: info
