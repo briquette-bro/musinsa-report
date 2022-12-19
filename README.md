@@ -1,8 +1,3 @@
-## [MUSINSA] 커머스코어실 Java Backend 과제
-
-안녕하세요, 무신사 커머스코어실 java backend 모집에 지원한 이상환 입니다.
-
-수행한 과제는 **#3번-재고관리** 입니다.
 
 ## git clone
 
